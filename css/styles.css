@@ -875,9 +875,8 @@ fill: #f4f4fd;
     .portfolio-card {
         width: calc((100% - 24px) / 2);}
 
-    
-
-    
+    .portfolio-list {
+        align-items: center;}
 }
 
 /* Desktop */
@@ -907,6 +906,19 @@ fill: #f4f4fd;
         letter-spacing: 0.32px;
         color: #434455; }
 
+    .portfolio-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 48px; }
+
+    .portfolio-card {
+        width: calc((100% - 48px) / 3);}
+
+    .pick-content {
+        padding: 32px 16px 32px 16px;}
+        
 } 
 
 
