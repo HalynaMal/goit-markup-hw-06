@@ -268,7 +268,7 @@ text-transform: capitalize;
 }
 
 .container-icon {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     height: 112px;
@@ -845,20 +845,17 @@ fill: #f4f4fd;
     margin-left: 16px;
 }
 
-@media screen and (min-width: 320px) {
-    .container {
-        max-width: 298px;
-    }
-    
+/* @media screen and (max-width: 320px) {
+        
         .container-icon {
             display: none;}
-}
+} */
 
 /* Tablet */
 
 @media screen and (min-width: 768px) {
     .container {
-         max-width: 736px;
+         max-width: 768px;
     }
     
     .feature-list {
@@ -882,7 +879,7 @@ fill: #f4f4fd;
 /* Desktop */
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1086px;
+        max-width: 1158px;
     }
     
     .feature-item {
