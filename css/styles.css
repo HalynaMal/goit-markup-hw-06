@@ -138,7 +138,7 @@ img {
     color: #404BBF;
 }
 
-/* section 1 Header Title-button */
+/* section 1 Head Title-button */
 .head-title {
     /* color: #FFF;
     font-size: 56px;
@@ -178,10 +178,20 @@ img {
    margin-bottom: 96px;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .head-back {
+       background-image: linear-gradient(#2E2F42B2, #2E2F42B2),
+       url(../images/dark-bgpeople-office-mob@2x.jpg);
+}
+
 .head-container {
   padding-top: 72px;
   padding-bottom: 72px;
 }
+
+
 
 .button {
     background-color: #4d5ae5;
@@ -941,10 +951,17 @@ fill: #f4f4fd;
         url(../images/dark-bgdark-bg-tablet.jpg);
         max-width: 768px;
     }
+       @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+       .head-back {
+            background-image: linear-gradient(#2E2F42B2, #2E2F42B2),
+            url(../images/dark-bgdark-bg-tablet@2x.jpg);
+    }
+
     .head-container {
         padding: 112px 136px;
-        
-        }
+    }
 
 }
 
@@ -998,16 +1015,25 @@ fill: #f4f4fd;
         url(../images/people-office-desk.jpg);
         max-width: 1158px;
         }
-.head-title {
-    font-size: 56px;
-    line-height: 1.07em;
-    letter-spacing: 1.12px;
-    max-width: 496px;
-    margin-bottom: 48px;
-   }
-.head-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
+         @media (min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+            .head-back {
+               background-image: linear-gradient(#2E2F42B2, #2E2F42B2),
+               url(../images/people-office-desk@2x.jpg);}
+
+ .head-title {
+     font-size: 56px;
+     line-height: 1.07em;
+     letter-spacing: 1.12px;
+     max-width: 496px;
+     margin-bottom: 48px;
+ }
+
+            
+    .head-container {
+        padding-top: 188px;
+        padding-bottom: 188px;
 }
 } 
 
